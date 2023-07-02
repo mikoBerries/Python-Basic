@@ -25,3 +25,22 @@ $ jupyter notebook list
     * https://www.geeksforgeeks.org/with-statement-in-python/
 - What is a generator? Its a special type of function that will generate information and not need to save it to memory
 - Python using snake case "this_is_a_function():"
+
+
+# PyPI 
+------
+- PyPi open source repo
+- instaling pip or using pip
+- https://stackoverflow.com/questions/29980798/where-does-pip-install-its-packages
+- diffrent pip
+    * https://www.binarystudy.com/2023/05/difference-between-pip-and-pip3.html
+```console
+# pip3 cli
+# install in linux 
+$ sudo apt-get install python3-pip
+
+# Show /upgrade/install
+$ pip3 install --upgrade package_name
+$ pip3 show package_name
+$ pip3 install package_name
+```
