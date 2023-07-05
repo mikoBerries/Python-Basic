@@ -14,3 +14,5 @@ $ pip3 install lxml
 $ pip3 install
 ```
 
+* there is free to scrape website to learning scarping website
+    - http://toscrape.com/
