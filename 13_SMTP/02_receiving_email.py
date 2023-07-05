@@ -47,7 +47,7 @@ raw_email = email_data[0][1]
 raw_email_string = raw_email.decode('utf-8')
 
 
-# Cleaning raw data coming from imaplib
+# Cleaning raw data coming from imaplib 
 email_message = email.message_from_string(raw_email_string)
 for part in email_message.walk():
     if part.get_content_type() == "text/plain":
